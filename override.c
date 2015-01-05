@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <cdio/types.h>
+#include <sys/types.h>
 #include <bsd/md5.h>
 
 void md5_calc(unsigned char * output, unsigned char * input, unsigned int len)
